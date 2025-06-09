@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="PT-BR">
  <head>
@@ -16,7 +17,7 @@
         .header{
             width:inherit;
             height:100px;
-            background-color:#87CEFA;
+            background-color:burlywood;
         }
         .main{
             width:inherit;
@@ -31,36 +32,50 @@
         .esquerda{
             width:200px;
             height:inherit;
-            background-color:#2b93d4;
+            background-color:beige;
             display:inline-block;
             float:right;
         }
         .centro{
             width:600px;
             height:inherit;
-            background-color:#2b53a2;
+            background-color:gainsboro;
             display:inline-block;
             float:right;
         }
         .direita{
             width:200px;
             height:inherit;
-            background-color:#0037ff;
+            background-color:beige;
             display:inline-block;
             float:right;
+        }
+        .foto_header{
+          width:100px;
+          height:100px;
+          background-image:url("https://www.gov.br/agricultura/pt-br/assuntos/noticias/hortas-comunitarias-e-fazendas-verticais-sao-alternativas-para-agricultura-em-areas-urbanas/producao-de-hortalicas-em-fazenda-vertical-credito-foto-italo-guedes-3.jpg/@@images/3c7c44fd-9114-4094-9b42-dc1826bd5ed2.jpeg");
+          background-size:;
+        }
+        .foto_centro{
+          width:600px;
+          height:400px;
+          background-image:url("https://www.gov.br/agricultura/pt-br/assuntos/noticias/hortas-comunitarias-e-fazendas-verticais-sao-alternativas-para-agricultura-em-areas-urbanas/producao-de-hortalicas-em-fazenda-vertical-credito-foto-italo-guedes-3.jpg/@@images/3c7c44fd-9114-4094-9b42-dc1826bd5ed2.jpeg");
+          background-size: cover;
         }
     </style>
  </head>
     <body>
         <div class="site">
              <div class="header">
-
+                <div class="foto_header"></div>
+                <p>foto disponivel em:<a href="https://www.gov.br/agricultura/pt-br/assuntos/noticias/hortas-comunitarias-e-fazendas-verticais-sao-alternativas-para-agricultura-em-areas-urbanas">agricultura</a></p>
              </div>
              <div class="main">
                 <div class="esquerda">
 
                 </div>
                 <div class="centro">
+                  <div class="foto_centro"></div>
 
                 </div>
                 <div class="direita">
@@ -78,4 +93,3 @@
          </div>
     </body>
 </html>
-
